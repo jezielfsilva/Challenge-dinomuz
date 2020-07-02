@@ -57,18 +57,18 @@ body {
     background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
 }
 
-.ti {
+.box-one {
     width: 100%;
     height: 60vh;
 }
 
-.gt {
+.box-two {
     width: 100%;
     height: 90vh;
     background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
 }
 
-.iu {
+.box-tree {
     width: 100%;
     height: 90vh;
 }
@@ -84,7 +84,7 @@ body {
     height: 60vh;
 }
 
-.final {
+.Container-final {
     width: 75%;
     height: 90vh;
     display: flex;
@@ -92,8 +92,13 @@ body {
     justify-content: space-between;
 }
 
-.con-final {
+.box-final-one {
     width: 100%;
-    height: 20vh;
-    background-color: rgba(0, 0, 0, 0.25);;
+    height: 50vh;
+}
+
+.box-final-two {
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.25);
 }
