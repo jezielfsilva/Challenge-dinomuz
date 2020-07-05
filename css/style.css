@@ -97,7 +97,7 @@ body {
     align-items: center;
 }
 
-.box-visuals, .box-code, .box-ponctuality {
+.box-visuals, .box-code, .box-ponctuality, .box-Address, .box-Email, .box-Phone {
     width: 17vw;
     display: flex;
     flex-wrap: wrap;
@@ -252,6 +252,25 @@ body {
     height: 48vh;
     border-radius: 3px;
     background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-txt-buttom {
+    width: 22vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title-beginning {
+    font-size: 1.3em;
+}
+
+.text-beginning {
+    font-size: 1.09em;
 }
 
 .click2 {
@@ -272,6 +291,20 @@ body {
     justify-content: center;
 }
 
+.title-story {
+    width: 44%;
+    font-size: 1.6em;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-title-story {
+    font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+    width: 37%;
+}
+
 .photo-story {
     width: 50%;
     height: 100%;
@@ -288,6 +321,36 @@ body {
     justify-content: center;
 }
 
+.title-newsletter {
+    font-size: 2em;
+}
+
+.sub-title-newsletter {
+    font-size: 1.3em;
+}
+
+.input-button {
+    margin-top: 3em;
+}
+
+.submit {
+    background-color: #f9f9ff;
+    width: 40vw;
+    height: 7vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.enter {
+    width: 23vw;
+    height: 4vh;
+    border-style: none;
+    background-color: #f9f9ff;
+    margin-left: 2em;
+}
+
 .Container-final {
     width: 75%;
     height: 90vh;
@@ -302,6 +365,28 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.container-fig2 {
+    width: 4vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-fig2 {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.text-fig2 {
+    width: 17vw;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3em;
 }
 
 .box-final-two {
