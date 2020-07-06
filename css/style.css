@@ -104,6 +104,7 @@ body {
 
 .box-visuals, .box-code, .box-ponctuality, .box-Address, .box-Email, .box-Phone {
     width: 22vw;
+    height: 13vh;
     display: flex;
     flex-wrap: wrap;
 }
@@ -116,6 +117,27 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.baloon {
+    background: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2em;
+}
+
+.code {
+    background: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.6em;
+}
+
+.clock {
+    background: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.9em;
 }
 
 .title-fig {
@@ -465,6 +487,22 @@ body {
     justify-content: center;
 }
 
+.thumbtack {
+    color: #ffffff;
+    font-size: 1.6em;
+    transform: rotate(40deg);
+}
+
+.globe {
+    color: #ffffff;
+    font-size: 1.8em;
+}
+
+.phone {
+    color: #ffffff;
+    font-size: 1.7em;
+}
+
 .title-fig2 {
     font-size: 0.9em;
     display: flex;
@@ -515,7 +553,21 @@ body {
     color: #ffffff;
 }
 
+.far {
+    color: #e66686;
+}
+
 .link {
     text-decoration: none;
     color: #e66686;
+}
+
+.facebook, .twitter, .dribbble, .behance {
+    width: 2.4vw;
+    height: 4vh;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
