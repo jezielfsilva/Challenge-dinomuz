@@ -5,6 +5,7 @@
         <link rel="stylesheet" type="text/css" href="./css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
     </head>
     <body>
         <div class="overlay">
@@ -237,5 +238,24 @@
                 </div>
             </footer>
         </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+        <script>
+            window.onload = function() {
+            var slider = tns({
+                container: '.container-slide',
+                items: 1,
+                slideBy: 'page',
+                autoplayButtonOutput: false,
+                controls: true,
+                nav: true,
+                controlsPosition: 'bottom',
+                navPosition: 'bottom',
+                controlsText: ['', ''],
+                mouseDrag: true,
+            });
+            }
+        </script>
     </body>
 </html>
