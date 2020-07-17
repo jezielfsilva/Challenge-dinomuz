@@ -89,6 +89,12 @@ body {
     cursor: pointer;
 }
 
+.click:hover {
+    background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    border-style: none;
+    transition: all 30s ease 0s;
+}
+
 .arrow {
     width: 3%;
     margin-left: 0.7em;
@@ -572,4 +578,28 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.facebook:hover {
+    background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    border: transparent;
+    transition: all 30s ease 0s;
+}
+
+.twitter:hover {
+    background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    border: transparent;
+    transition: all 30s ease 0s;
+}
+
+.dribbble:hover {
+    background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    border: transparent;
+    transition: all 30s ease 0s;
+}
+
+.behance:hover {
+    background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    border: transparent;
+    transition: all 30s ease 0s;
 }
