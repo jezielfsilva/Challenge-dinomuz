@@ -300,8 +300,7 @@ body {
 }
 
 .overflow:hover {
-    background-color: #ffffff;
-    opacity: 0.9;
+    background-color: #ffffffe1;
 }
 
 .click-over {
@@ -602,6 +601,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .2s;
+}
+
+.box-Address:hover .container-fig2 {
+    background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    border: 1px solid transparent;
+}
+
+.box-Email:hover .container-fig2 {
+    background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    border: 1px solid transparent;
+}
+
+.box-Phone:hover .container-fig2 {
+    background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    border: 1px solid transparent;
 }
 
 .thumbtack {
@@ -687,28 +702,25 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .2s;
 }
 
 .facebook:hover {
     background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
-    border: transparent;
-    transition: all 30s ease 0s;
+    border: 1px solid transparent;
 }
 
 .twitter:hover {
     background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
-    border: transparent;
-    transition: all 30s ease 0s;
+    border: 1px solid transparent;
 }
 
 .dribbble:hover {
     background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
-    border: transparent;
-    transition: all 30s ease 0s;
+    border: 1px solid transparent;
 }
 
 .behance:hover {
     background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
-    border: transparent;
-    transition: all 30s ease 0s;
+    border: 1px solid transparent;
 }
